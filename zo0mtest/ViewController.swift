@@ -51,6 +51,9 @@ class ViewController : UIViewController{
                             for: .touchUpInside) // this adds an action to the button
     }
     
+    let reuseIdentifier = "Cell"
+    let cellId = "cellId"
+    
     @objc func prestentsViews ()
     {
         let zoomZiew = newZoomView()
